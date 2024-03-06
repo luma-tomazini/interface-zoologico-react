@@ -1,0 +1,13 @@
+.ctn-atracao {
+    width: 20%;
+    height: 50vh;
+
+    background-color: #a7a000;
+
+    border: 2px solid #555;
+}
+
+.ctn-atracao > img {
+    width: 60%;
+    height: 50%;
+}
