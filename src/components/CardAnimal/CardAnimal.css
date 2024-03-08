@@ -1,4 +1,4 @@
-.ctn-atracao {
+.ctn-cardanimal {
     width: 25%;
     height: 50vh;
 
@@ -14,6 +14,6 @@
     height: 50%;
 } */
 
-.ctn-atracao > p {
+.ctn-cardanimal > p {
     font-size: 2rem;
 }
