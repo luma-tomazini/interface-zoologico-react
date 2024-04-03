@@ -2,6 +2,8 @@ import './Home.css'
 import Atracao from '../../components/Atracao/Atracao';
 import Welcome from '../../components/Welcome/Welcome';
 import Navegacao from '../../components/Navegacao/Navegacao';
+import FormAnimal from '../../components/FormAnimal/FormAnimal';
+
 
 
 function Home() {
@@ -13,11 +15,12 @@ function Home() {
     return (
         <>
             <Navegacao></Navegacao>
-            <Welcome />
+            {/* <Welcome />
             <h1 style={{color: 'black'}}>Atracao</h1>
             <div className='ctn-atracoes'>
                 {componentes}
-            </div>
+            </div> */}
+            <FormAnimal />
         </>
     )
 }

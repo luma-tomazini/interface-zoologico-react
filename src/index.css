@@ -35,6 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #f1efb8;
+  font-family: "Caesar Dressing", system-ui;
 }
 
 h1 {
