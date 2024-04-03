@@ -3,6 +3,7 @@ import Atracao from '../../components/Atracao/Atracao';
 import Welcome from '../../components/Welcome/Welcome';
 import Navegacao from '../../components/Navegacao/Navegacao';
 
+
 function Home() {
     const componentes = [];
     for (let i = 0; i <= 2; i++) {
@@ -13,11 +14,12 @@ function Home() {
         <>
             <Navegacao></Navegacao>
             <Welcome />
-            <div className="ctn-atracoes">
+            <h1 style={{color: 'black'}}>Atracao</h1>
+            <div className='ctn-atracoes'>
                 {componentes}
             </div>
         </>
-    );
+    )
 }
 
 export default Home;
