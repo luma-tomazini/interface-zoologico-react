@@ -17,3 +17,20 @@
 .ctn-cardanimal > p {
     font-size: 2rem;
 }
+
+.card-animal{
+    background-color: #A7A000;
+    width: 20%;
+    height: 60vh;
+    border: 2px solid #555;
+    margin: 2%;
+}
+
+.card-animal > img {
+    width: 50%;
+    height: 50%;
+}
+
+.card-animal > p {
+    font-size: 1rem;
+}
